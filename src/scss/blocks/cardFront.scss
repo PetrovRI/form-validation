@@ -1,0 +1,71 @@
+.card-front {
+  position: relative;
+  z-index: 2;
+  padding: 14px;
+  width: 290px;
+
+  &__title-num {
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-weight: 400;
+    color: $text-average;
+  }
+
+  &__num {
+    padding-left: 11px;
+    width: 58px;
+    height: 40px;
+    margin-right: 9px;
+    border: 1px solid #e4e9ee;
+  }
+
+  &__title-date {
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-average;
+    margin-bottom: 6px;
+  }
+  // select month
+  &__custom-month {
+    width: 70px;
+    margin-right: 9px;
+  }
+ // select year
+  &__custom-year {
+    width: 86px;
+  }
+ // select customer 
+  &__customer {
+    font-family: $accent-font;
+    padding-left: 11px; 
+    width: 260px;
+    height: 40px;
+  }
+
+  &__wrapper {
+    margin-bottom: 17px;
+    display: flex;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .card-front {
+    width: 350px;
+
+    &__num {
+      width: 63px;
+      height: 40px;
+      margin-right: 9px;
+      border: 1px solid #e4e9ee;
+    }
+
+    &__customer {
+      font-family: $accent-font;
+      padding-left: 11px; 
+      width: 317px;
+      height: 40px;
+    }
+  }
+}  
+  
+

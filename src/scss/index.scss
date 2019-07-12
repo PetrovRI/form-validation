@@ -1,0 +1,27 @@
+/* normalize */
+@import './../../node_modules/normalize.css/normalize.css';
+
+/* base */
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/img';
+
+/* themes */
+@import './themes/default-theme.scss';
+
+/* blocks */
+@import './blocks/nav.scss';
+@import './blocks/card.scss';
+@import './blocks/data.scss';
+@import './blocks/cardFront.scss';
+@import './blocks/cardBack.scss';
+@import './blocks/menu.scss';
+@import './blocks/customSelect.scss';
+@import './blocks/footer.scss';
+
+/* utils */
+@import './utils/helpers.scss'
+
+
+
+

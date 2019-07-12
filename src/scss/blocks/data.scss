@@ -1,0 +1,80 @@
+.data {
+  width: 100%;
+  margin: 0 auto;
+  &__form {
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+  &__wrapper-absolute {
+    margin: 0 auto;
+    position: relative;
+    width: 290px;
+    height: 500px;
+  }
+
+  &__card {
+    background-color: $bk-light;
+    border: 1px solid #e4e9ee;
+    font-family: $main-font;
+    border-radius: 10px;
+    height: 234px;
+  }
+
+  &__title {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    font-size: 18px;
+    color: $text-darkest;
+    font-family: $accent-font;
+    padding-bottom: 20px; 
+  }
+
+  &__btn {
+    padding: 13px 0;
+    background-color: #0057b9;
+    font-size: 14px;
+    font-family: $accent-font;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 280px;
+    margin: 0 auto;
+    z-index: 11;
+    margin-top: 265px;
+  }
+}
+
+.btn-wrp {
+  width: 290px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .data {
+    &__wrapper-absolute {
+      position: relative;
+      width: 580px;
+      height: 256px;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+
+    &__title {
+      margin: 0;
+      width: 340px;
+      font-size: 22px;
+      color: $text-darkest;
+      font-family: $accent-font;
+      padding-bottom: 20px;
+    }
+
+    &__btn {
+      width: 133px;
+      margin-top: 40px;
+      margin-left: 15px;
+    }
+  }
+}
