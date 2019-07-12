@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    outline: none;
+  }
+}
+
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #101114;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
