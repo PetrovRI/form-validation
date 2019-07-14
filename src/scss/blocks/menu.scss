@@ -16,6 +16,7 @@
 @media (min-width: $tablet-width) {
   .menu {
     max-width: 640px;
+
     &__btn {
       height: 70px;
       color: #fff;
@@ -28,8 +29,10 @@
 
 @media (min-width: $desktop-width) {
   .menu {
+    float: left;
     width: 320px;
     margin: 0;
+    
     &__btn {
       display: none;
     }

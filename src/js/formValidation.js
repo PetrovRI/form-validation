@@ -3,7 +3,6 @@ const $ = jQuery;
 
 $(() => {
   const form = $('.data__form');
-  const cardNumbers = $('.card-front__num');
   const cardNumberFirst = $('.card-front__num-first');
   const cardNumberSecond = $('.card-front__num-second');
   const cardNumberThird = $('.card-front__num-third');
@@ -48,8 +47,6 @@ $(() => {
     } else {
       validNumberFourth = true;
     }
-
-    // -------
 
     if (cardCustomer.val() === '') {
       cardCustomer.addClass('error');
