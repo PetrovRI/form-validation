@@ -3,16 +3,8 @@
 }
 
 .center-container {
-  max-width: 1000px;
+  max-width: 960px;
   margin: 0 auto;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  @media (min-width: $desktop-width) {
-    flex-direction: row;
-  }
 }
 
 .hide {

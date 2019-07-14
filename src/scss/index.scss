@@ -1,15 +1,11 @@
-/* normalize */
 @import './../../node_modules/normalize.css/normalize.css';
 
-/* base */
-@import 'base/base';
-@import 'base/fonts';
-@import 'base/img';
+@import 'base/base.scss';
+@import 'base/fonts.scss';
+@import 'base/img.scss';
 
-/* themes */
 @import './themes/default-theme.scss';
 
-/* blocks */
 @import './blocks/nav.scss';
 @import './blocks/card.scss';
 @import './blocks/data.scss';
@@ -19,7 +15,6 @@
 @import './blocks/customSelect.scss';
 @import './blocks/footer.scss';
 
-/* utils */
 @import './utils/helpers.scss'
 
 
